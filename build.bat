@@ -1,10 +1,10 @@
 @echo off
 @set cmd=Compiler\Ahk2Exe.exe
 
-@set src=src\Any2Any.ahk
-@set target=any2any.exe
+@set src=src\test.ahk
+@set target=test.exe
 @set out=bin\%target%
-@set deploy=C:\port\software\portable\%target%
+@set deploy=C:\hotKey\%target%
 
 echo %src%
 
